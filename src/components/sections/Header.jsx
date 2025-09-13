@@ -1,9 +1,9 @@
 export default function Header() {
   return (
-    <header>
-      <div className="container mx-auto px-3 bg-white dark:bg-black">
-        <p className="text-[50px] ">Pranij</p>
-        <p className="text-[50px]">Manandhar</p>
+    <header className="bg-background">
+      <div className="container mx-auto px-3 py-5 flex justify-between gap-3">
+        <h1 className="text-text text-2xl md:text-3xl flex-1">Realtime Emoji Poll</h1>
+        <div className="buttons-wrapper flex-1"></div>
       </div>
     </header>
   );

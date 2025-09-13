@@ -1,6 +1,6 @@
 export default function VotingPage() {
   return (
-    <div className="dark">
+    <div>
       <p className="text-[50px] ">Voting</p>
     </div>
   );
