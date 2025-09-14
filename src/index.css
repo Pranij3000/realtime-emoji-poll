@@ -1,22 +1,27 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 body {
   @apply font-mono;
 }
 
 @theme {
-  --color-background: var(--background);
-  --color-text: var(--text);
-  --color-title: var(--title);
-  --color-primary: var(--primary);
+  --color-background: white;
+  --color-text: #5a5a5a;
+  --color-title: black;
+  --color-primary: #ffdb33;
+  --color-dark-background: #1a1a1a;
+  --color-dark-text: #a0a0a0;
+  --color-dark-title: #f5f5f5;
 }
 
-:root {
+/* :root {
   --background: white;
   --text: #5a5a5a;
   --title: black;
   --primary: #ffdb33;
-}
+} */
 
 .dark {
   --background: #1a1a1a;

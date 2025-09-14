@@ -4,6 +4,7 @@ import Error from "./components/pages/Error";
 import VotingPage from "./components/pages/VotingPage";
 import Signup from "./components/pages/Signup";
 import RootLayout from "./components/layout/RootLayout";
+import DarkModeButton from "./components/ui/DarkModeButton";
 
 export default function App() {
   return (
@@ -37,6 +38,7 @@ export default function App() {
           />
         </Routes>
       </BrowserRouter>
+      <DarkModeButton />
     </>
   );
 }
