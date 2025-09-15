@@ -2,12 +2,12 @@
 
 ## Tools Used
 
-React
-Tailwind
-GSAP
+1. React
+2. Tailwind
+3. GSAP
 
 ## Tasks Completed
 
-Tailwind + React Setup
-Dark Mode feature
-Voting Page FED created
+1. Tailwind + React Setup
+2. Dark Mode feature
+3. Voting Page FED created
